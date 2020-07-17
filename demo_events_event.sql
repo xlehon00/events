@@ -1,0 +1,12 @@
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (1, 'Event A', '2020-07-20 08:00:00', '2020-07-20 09:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (2, 'Event B', '2020-07-20 09:15:00', '2020-07-20 10:30:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (3, 'Event C', '2020-07-20 10:30:00', '2020-07-20 12:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (4, 'Event D', '2020-07-20 11:00:00', '2020-07-20 13:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (5, 'Event E', '2020-07-20 13:15:00', '2020-07-20 15:30:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (6, 'Event F', '2020-07-20 14:00:00', '2020-07-20 16:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (7, 'Event G', '2020-07-20 15:45:00', '2020-07-20 17:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (8, 'Event H', '2020-07-20 17:00:00', '2020-07-20 19:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (9, 'Event I', '2020-07-20 17:30:00', '2020-07-20 18:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (10, 'Event K', '2020-07-20 18:30:00', '2020-07-20 20:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (11, 'Event L', '2020-07-20 20:30:00', '2020-07-20 21:00:00');
+INSERT INTO demo_events.event (id, name, begin_at, end_at) VALUES (12, 'Event M', '2020-07-20 20:00:00', '2020-07-20 22:00:00');
