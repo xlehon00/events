@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h3>Events</h3>
+        <table class="table">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Begin</th>
+                <th scope="col">End</th>
+            </tr>
+            {% for event in events %}
+                <tr>
+                    <th scope="row">{{ event.id }}</th>
+                    <td>{{ event.name }}</td>
+                    <td>{{ event.beginAt|date('d-m-Y H:i') }}</td>
+                    <td>{{ event.endAt|date('d-m-Y H:i') }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <h3>Overlapping event pairs</h3>
+        {% for pair in overlappingEventsPairs %}
+            <div class="row pl-3">
+                 {{ pair.firstEvent }} - {{ pair.secondEvent }}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
